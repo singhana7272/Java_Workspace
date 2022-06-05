@@ -1,0 +1,6 @@
+1649855227881	Move package
+1649855230799	Move package
+1649873605078	Rename type 'CourseNotRegisteredException'
+1649873725828	Rename type 'CourseRegistrationFullException'
+1649915057939	Rename package 'com.exception'
+1649915082433	Rename package 'InvalidInputException'

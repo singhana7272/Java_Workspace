@@ -1,0 +1,8 @@
+spring.dataSource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.dataSource.url=jdbc:mysql://localhost:3306/studentdb
+spring.dataSource.username=root
+spring.dataSource.password=admin
+
+#ddl data definition language auto : automatic
+spring.jpa.hibernate.ddl-auto=create
+

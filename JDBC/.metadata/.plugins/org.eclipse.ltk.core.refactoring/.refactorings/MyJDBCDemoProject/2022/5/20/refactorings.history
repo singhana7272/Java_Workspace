@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MyJDBCDemo.java&apos; to &apos;MyJDBCDemoProject/src/com.anamika.jdbc&apos;&#x0D;&#x0A;- Original project: &apos;MyJDBCDemoProject&apos;&#x0D;&#x0A;- Destination element: &apos;MyJDBCDemoProject/src/com.anamika.jdbc&apos;&#x0D;&#x0A;- Original element: &apos;com.anamika.jdbc.MyJDBCDemo.java&apos;" description="Copy compilation unit" destination="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.jdbc" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.jdbc{MyJDBCDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1651989181450" units="1" version="1.0"/>
+</session>

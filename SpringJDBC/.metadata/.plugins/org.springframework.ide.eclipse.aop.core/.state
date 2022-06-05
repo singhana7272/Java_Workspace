@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="EmployeeSpringDaoXmlConfigProject"/>
+<aop-project name="EmployeeJDBCLayeredProjectSpringIOC"/>
+<aop-project name="EmployeeSpringDaoProjectPart1"/>
+<aop-project name="EmployeeCourseSpringDaoWithAnnotationProject"/>
+<aop-project name="EmployeeCourseLayeredCompleteProject"/>
+<aop-project name="EmployeeSpringDaoWithAnnotationProject"/>
+<aop-project name="EmployeeCourseSpringDaoXmlConfigProject"/>
+</aop-reference-model>

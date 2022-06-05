@@ -1,0 +1,14 @@
+package com.anamika.service;
+
+import java.util.ArrayList;
+
+import com.anamika.bean.Course;
+import com.anamika.bean.Employee;
+
+public interface EmployeeService {
+
+	ArrayList<Course> showAllCourses();
+
+	Employee searchEmployeeById(String empId);
+
+}

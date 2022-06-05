@@ -1,0 +1,24 @@
+package com.anamika.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
+
+import com.anamika.producer.GoodMorning;
+import com.anamika.producer.Greet;
+
+@SpringBootApplication(scanBasePackages = "com.anamika.producer")
+public class GreetSpingbootProjectApplication {
+
+	@Bean
+	public GoodMorning goodMorning() {
+		return new GoodMorning("Anamika");
+	}
+	public static void main(String[] args) {
+		ApplicationContext springContainer=SpringApplication.run(GreetSpingbootProjectApplication.class, args);
+		Greet greet=(Greet)springContainer.getBean("goodMorning");
+		greet.wish();
+	}
+
+}

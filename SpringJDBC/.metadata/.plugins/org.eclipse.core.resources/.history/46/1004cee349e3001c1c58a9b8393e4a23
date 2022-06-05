@@ -1,0 +1,6 @@
+package com.bean;
+
+public class Registrations {
+	String empId;
+	String courseId;
+}

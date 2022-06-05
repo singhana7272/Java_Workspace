@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GoodMorning.java&apos; to &apos;MyGreetProducer/src/com.anamika.producer&apos;&#x0D;&#x0A;- Original project: &apos;MyGreetProducer&apos;&#x0D;&#x0A;- Destination element: &apos;MyGreetProducer/src/com.anamika.producer&apos;&#x0D;&#x0A;- Original element: &apos;com.anamika.producer.GoodMorning.java&apos;" description="Copy compilation unit" destination="/src&lt;com.anamika.producer" element1="/src&lt;com.anamika.producer{GoodMorning.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1652065579340" units="1" version="1.0"/>
+</session>

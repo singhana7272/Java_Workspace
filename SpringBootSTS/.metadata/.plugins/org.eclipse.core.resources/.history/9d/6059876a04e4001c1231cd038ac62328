@@ -1,0 +1,17 @@
+package com.anamika.persistence;
+
+import java.util.ArrayList;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.anamika.bean.Employee;
+
+@Repository
+public interface EmployeeDao extends JpaRepository<Employee, String>{
+	
+	@Query("select e.* from Employee e join Registrations r on e.id=r.empId where r.courseId=:cId")
+	public ArrayList<Employee> showAllEmployeesForSpecificCourse(String courseId);
+	
+	
+}

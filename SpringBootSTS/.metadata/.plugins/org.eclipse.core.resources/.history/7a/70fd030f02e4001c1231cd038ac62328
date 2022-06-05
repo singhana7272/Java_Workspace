@@ -1,0 +1,11 @@
+package com.anamika.service;
+
+import java.util.ArrayList;
+
+import com.anamika.bean.Employee;
+
+public interface CourseService {
+
+	ArrayList<Employee> showAllEmployeesForSpecificCourse(String courseId);
+
+}

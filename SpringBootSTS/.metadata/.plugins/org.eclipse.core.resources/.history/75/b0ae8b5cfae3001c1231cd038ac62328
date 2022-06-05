@@ -1,0 +1,2 @@
+spring.dataSource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.dataSource.url=

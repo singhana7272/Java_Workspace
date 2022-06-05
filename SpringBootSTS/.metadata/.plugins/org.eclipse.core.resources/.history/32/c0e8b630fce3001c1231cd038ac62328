@@ -1,0 +1,5 @@
+package com.anamika.persistence;
+
+public class EmployeeCoursePresentationImpl implements EmployeeCoursePresentation{
+
+}

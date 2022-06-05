@@ -1,0 +1,16 @@
+package com.anamika.presentation;
+
+public class EmployeeCoursePresentationImpl implements EmployeeCoursePresentation{
+
+	@Override
+	public void showMenu() {
+		
+	}
+
+	@Override
+	public void performMenu(int choice) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

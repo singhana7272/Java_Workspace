@@ -1,0 +1,9 @@
+package com.anamika.bean;
+
+public class Course {
+	private String id;
+	private String name;
+	private int fee;
+	private boolean online;
+	private boolean fulltime;
+}

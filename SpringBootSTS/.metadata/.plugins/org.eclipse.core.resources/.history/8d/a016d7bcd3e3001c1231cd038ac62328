@@ -1,0 +1,40 @@
+package com.anamika.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+import com.anamika.bean.Employee;
+import com.anamika.persistence.EmployeeDao;
+import com.anamika.presentation.EmployeePresentation;
+import com.anamika.presentation.EmployeePresentationImpl;
+
+@SpringBootApplication
+@EnableJpaRepositories(basePackages = "com.anamika.persistence")
+@EntityScan(basePackages = "com.anamika.bean")
+public class SpringbootDatajpaDemoProjectApplication implements CommandLineRunner{
+
+	@Autowired
+	private EmployeePresentation employeePresentation;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootDatajpaDemoProjectApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		Employee employee1=new Employee("AAAA", "Associate", "IT", 35000);
+		Employee employee2=new Employee("BBBB", "Sr. Associate", "IT", 35000);
+		Employee employee3=new Employee("CCCC", "Jr. Associate", "IT", 35000);
+		Employee employee4=new Employee("DDDD", "Manager", "IT", 35000);
+		employeeDao.save(employee1);
+		employeeDao.save(employee2);
+		employeeDao.save(employee3);
+		employeeDao.save(employee4);
+		
+	}
+
+}

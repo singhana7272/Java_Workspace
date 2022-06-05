@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AudioStore</title>
+</head>
+<body align="center">
+<b><i><h2>MY AUDIO STORE</h2></i></b>
+<select>
+<option value="Audio1"><a href="Audio1.html">Audio1</a></option>
+    <option value="Audio2"><a href="Audio2.html">Audio1</a></option>
+    <option value="Audio3"><a href="Audio3.html">Audio1</a></option>
+</select>
+</body>
+</html>

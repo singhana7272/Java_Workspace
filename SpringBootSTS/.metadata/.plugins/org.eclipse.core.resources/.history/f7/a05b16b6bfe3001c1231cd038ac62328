@@ -1,0 +1,15 @@
+package com.anamika.bean;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class Student {
+
+	private String empId;
+	private String empName;
+	private String department;
+	private String designation;
+	private int salary;
+}

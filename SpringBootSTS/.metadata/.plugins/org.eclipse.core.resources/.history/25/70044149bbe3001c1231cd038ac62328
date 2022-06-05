@@ -1,0 +1,14 @@
+package com.anamika.demo;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(scanBasePackages = "com.anamika")
+public class SpringbootJdbcEmployeeProject1Application implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootJdbcEmployeeProject1Application.class, args);
+	}
+
+}

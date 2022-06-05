@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.zoo&apos; to &apos;com.main&apos;&#x0D;&#x0A;- Original project: &apos;Forest&apos;&#x0D;&#x0A;- Original element: &apos;Forest/src/com.zoo&apos;&#x0D;&#x0A;- Renamed element: &apos;Forest/src/com.main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.zoo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.zoo" name="com.main" qualified="false" references="true" stamp="1647223969452" textual="false" version="1.0"/>
+</session>

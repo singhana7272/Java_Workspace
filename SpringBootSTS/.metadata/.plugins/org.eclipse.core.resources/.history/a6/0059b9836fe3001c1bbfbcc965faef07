@@ -1,0 +1,17 @@
+package com.anamika.bean;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+@AllArgsConstructor
+@ToString
+public class Employee {
+	
+	private int empId;
+	private String empName;
+	private String empDepartment;
+	private String empDesignation;
+	private int empSalary;
+}

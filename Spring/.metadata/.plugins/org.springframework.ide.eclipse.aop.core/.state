@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="MyGreetConsumer"/>
+<aop-project name="MySpringCommunicationJavaConfigurationProject"/>
+<aop-project name="EmployeeJDBCLayeredProjectSpringIOC"/>
+<aop-project name="MySpringCommunicationProject"/>
+<aop-project name="MySpringCommunicationJavaConfigurationWithAnnotationProject2"/>
+<aop-project name="Namespacepandc"/>
+<aop-project name="EmployeeJDBCLayeredAnnotatedProjectSpringIOC2"/>
+<aop-project name="MyPerformanceSpringJavaConfigurationProject"/>
+<aop-project name="EmployeeLayeredProjectSpringAnnotatedConfiguration"/>
+</aop-reference-model>

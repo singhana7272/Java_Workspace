@@ -1,0 +1,11 @@
+package com.anamika.bean;
+
+import javax.persistence.Id;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+@Repository
+public interface StudentDao extends JpaRepository<Student, Id> {
+
+}

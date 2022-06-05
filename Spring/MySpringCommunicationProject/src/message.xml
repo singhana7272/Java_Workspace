@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Setter Injection -->
+	<bean id="mail" class="com.anamika.producer.Mail">
+		<property name="senderEmail" value="anamika@gmail.com"></property>
+		<property name="receiverEmail" value="preeti@gmail.com"></property>
+	</bean>
+
+	<!-- Constructor Injection -->
+	<bean id="sms" class="com.anamika.producer.SMS">
+		<constructor-arg name="senderNo" value="1234"></constructor-arg>
+		<constructor-arg name="receiverNo" value="5678"></constructor-arg>
+	</bean>
+
+
+</beans>

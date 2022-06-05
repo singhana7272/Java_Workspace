@@ -1,0 +1,19 @@
+package com.anamika.bean;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+@Entity
+public class Student {
+
+	@javax.persistence.Id
+	private String Id;
+	private String Name;
+	private String department;
+	private String designation;
+	private int salary;
+}

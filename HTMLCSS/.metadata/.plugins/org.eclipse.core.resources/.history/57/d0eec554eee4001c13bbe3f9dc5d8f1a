@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MY MULTIMEDIA STORE</title>
+</head>
+<body align="center">
+
+    <b><i><h2>MY MULTIMEDIA STORE</h2></i></b>
+    <table height=300px width=200px border=1px solid black align="center">
+    <tr><td><a href="AudioStore.html">AUDIOS</a></td></tr>
+    <tr><td><a href="BookStore.html">BOOKS</a></td></tr>
+    <tr><td>VIDEOS</td></tr>
+    <tr><td>CONTRACTOR FORMS</td></tr>
+    </table>
+</body>
+</html>

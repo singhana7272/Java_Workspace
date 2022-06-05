@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>form1</title>
+</head>
+<body>
+<form action="/myresource" method="get" border=12 px solid black>
+<label for="name">Enter Username:</label>
+<input id="name" name="username" type="text"><br>
+<label for="password">Enter Password:</label>
+<input id="password" type="password"><br>
+Select your gender:<br>
+<label for="male">Male:</label><input id="male" name="Male" type="radio">&nbsp;&nbsp;&nbsp;<label for="female">Female:<input id="female" name="Female" type="radio">
+<br>
+<label for="age">Enter your age</label><input id="age" name="age" type="date"><br>
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

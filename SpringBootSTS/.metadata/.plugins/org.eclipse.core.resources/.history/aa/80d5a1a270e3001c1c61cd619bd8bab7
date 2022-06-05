@@ -1,0 +1,13 @@
+package com.anamika.bean;
+
+import lombok.Data;
+
+@Data
+public class Employee {
+	
+	private int empId;
+	private String empName;
+	private String empDepartment;
+	private String empDesignation;
+	private int empSalary;
+}

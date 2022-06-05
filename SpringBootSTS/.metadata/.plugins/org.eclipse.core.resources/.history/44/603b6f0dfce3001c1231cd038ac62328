@@ -1,0 +1,5 @@
+package com.anamika.persistence;
+
+public interface EmployeeCoursePresentation {
+
+}

@@ -1,0 +1,10 @@
+package com.anamika.bean;
+
+import javax.persistence.Id;
+
+public class Registrations {
+	@Id
+	private String courseId;
+	@Id
+	private String empId;
+}

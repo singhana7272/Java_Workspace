@@ -1,0 +1,19 @@
+package com.anamika.presentation;
+
+public class EmployeeCoursePresentationImpl implements EmployeeCoursePresentation{
+
+	@Override
+	public void showMenu() {
+		System.out.println("1.Show all courses");
+		System.out.println("2.Register for a course");
+		System.out.println("3.Deregister from a course");
+		System.out.println("4.List of employees for specific course");
+		System.out.println("5.Exit");
+	}
+
+	@Override
+	public void performMenu(int choice) {
+		
+	}
+
+}

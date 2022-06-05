@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MY MULTIMEDIA STORE</title>
+</head>
+<body align="center">
+
+    <b><i><h2>MY MULTIMEDIA STORE</h2></i></b>
+    <table>
+    <tr><tc>AUDIOS</tc></tr>
+    <tr><tc>BOOKS</tc></tr>
+    <tr><tc>VIDEOS</tc></tr>
+    <tr><tc>CONTRACTOR FORMS</tc></tr>
+    </table>
+</body>
+</html>

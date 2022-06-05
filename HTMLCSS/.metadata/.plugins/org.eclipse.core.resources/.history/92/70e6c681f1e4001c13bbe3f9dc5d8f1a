@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>VideoStore</title>
+</head>
+
+
+<body align="center">
+
+    <b><i><h2>MY BOOK STORE</h2></i></b>
+    <table height=300px width=200px border=1px solid black align="center">
+    <tr align="center""><td><a href="https://www.youtube.com/watch?v=AGBjI0x9VbM">VIDEO1</a></td></tr>
+    <tr align="center"><td><a href="https://www.youtube.com/watch?v=dUXLq8ZQYXo&t=1s" >VIDEO2</a></td></tr>
+    <tr align="center"><td><a href="Video3.html">VIDEO3</a></td></tr>
+    </table>
+</body>
+</html>

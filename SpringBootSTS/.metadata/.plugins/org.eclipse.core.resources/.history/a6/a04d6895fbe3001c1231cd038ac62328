@@ -1,0 +1,19 @@
+package com.anamika.bean;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class Course {
+	private String id;
+	private String name;
+	private int fee;
+	private boolean online;
+	private boolean fulltime;
+}

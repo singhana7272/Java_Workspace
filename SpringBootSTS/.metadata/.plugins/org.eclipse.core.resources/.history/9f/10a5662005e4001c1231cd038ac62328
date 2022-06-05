@@ -1,0 +1,19 @@
+package com.anamika.client;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.anamika.presentation.EmployeeCoursePresentation;
+
+@SpringBootApplication
+public class EmployeeCourseJpaApplication {
+	
+	@Autowired
+	private EmployeeCoursePresentation employeeCoursePresentation;
+
+	public static void main(String[] args) {
+		SpringApplication.run(EmployeeCourseJpaApplication.class, args);
+	}
+
+}

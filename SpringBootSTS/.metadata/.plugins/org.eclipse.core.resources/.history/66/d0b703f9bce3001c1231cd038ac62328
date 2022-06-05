@@ -1,0 +1,36 @@
+package com.anamika.demo;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+@SpringBootApplication(scanBasePackages = "com.anamika")
+public class SpringbootJdbcEmployeeProjectApplication implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootJdbcEmployeeProjectApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+	}
+	
+//	@Bean
+//	public DriverManagerDataSource dataSource() {
+//		DriverManagerDataSource ds=new DriverManagerDataSource();
+//		ds.setDriverClassName("");
+//		ds.setUrl("");
+//		ds.setUsername("root");
+//		ds.setPassword("admin");
+//		return ds;
+//	}
+//
+//	@Bean
+//	public JdbcTemplate jdbcTemplate() {
+//		return new JdbcTemplate(dataSource());
+//	}
+}

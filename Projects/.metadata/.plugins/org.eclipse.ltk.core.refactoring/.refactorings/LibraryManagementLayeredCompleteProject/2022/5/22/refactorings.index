@@ -1,0 +1,14 @@
+1653542651404	Rename type 'CustomerPresentation'
+1653542672117	Rename type 'CustomerPresentationImpl'
+1653543115757	Rename type 'UserPresentation'
+1653543157036	Rename type 'UserPresentationImpl'
+1653557395571	Delete element
+1653557403106	Delete element
+1653570682347	Rename type 'customerCard'
+1653622884020	Rename type 'LoginPresentation'
+1653622909391	Rename type 'LoginPresentationImpl'
+1653622924178	Rename type 'CustomerPresentation'
+1653622942382	Rename type 'CustomerPresentationImpl'
+1653622977439	Rename type 'CustPresentationImpl'
+1653622987643	Rename type 'CustPresentation'
+1653623122527	Rename resource 'customer.xml'

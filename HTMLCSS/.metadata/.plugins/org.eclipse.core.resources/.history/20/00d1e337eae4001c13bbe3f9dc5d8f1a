@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<audio controls>
+  <source src="https://gaana.com/song/everything-i-wanted-88" type="audio/mpeg">
+</audio>
+</body>
+</html>

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.jdbc=6
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=8
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=7
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=EmployeeCourse-JPA
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.7.0
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=EmployeeCourse JPA project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.anamika
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=EmployeeCourse-JPA
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.anamika.client
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

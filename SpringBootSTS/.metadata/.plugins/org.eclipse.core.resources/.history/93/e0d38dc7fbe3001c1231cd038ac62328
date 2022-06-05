@@ -1,0 +1,6 @@
+package com.anamika.bean;
+
+public class Registrations {
+	private String courseId;
+	private String empId;
+}

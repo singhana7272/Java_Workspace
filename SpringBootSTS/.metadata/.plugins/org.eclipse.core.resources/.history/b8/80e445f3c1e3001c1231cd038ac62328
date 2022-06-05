@@ -1,0 +1,10 @@
+spring.dataSource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.dataSource.url=jdbc:mysql://localhost:3306/studentdb
+spring.dataSource.username=root
+spring.dataSource.password=admin
+
+#ddl-auto data definition language auto : automatic
+#create : schema if exist will drop and new schema will be created
+spring.jpa.hibernate.ddl-auto=create
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect

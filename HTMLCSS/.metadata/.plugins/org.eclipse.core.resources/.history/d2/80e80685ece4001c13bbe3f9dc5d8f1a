@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AudioStore</title>
+</head>
+<body align="center">
+<b><i><h2>MY AUDIO STORE</h2></i></b>
+<select>
+<option value="Audio1.html">Audio1</option>
+    <option value="Audio2.html">Audio2</option>
+    <option value="Audio3.html">Audio3</option>
+</select>
+
+<table height=300px width=200px border=1px solid black align="center">
+    <tr><td>AUDIOS</td></tr>
+    <tr><td>BOOKS</td></tr>
+    <tr><td>VIDEOS</td></tr>
+    <tr><td>CONTRACTOR FORMS</td></tr>
+    </table>
+</body>
+</html>

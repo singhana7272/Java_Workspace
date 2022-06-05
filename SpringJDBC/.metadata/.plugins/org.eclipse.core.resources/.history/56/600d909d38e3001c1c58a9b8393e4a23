@@ -1,0 +1,9 @@
+package com.helper;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.bean.Employee;
+
+public class EmployeeRowMapper implements RowMapper<Employee>{
+
+}

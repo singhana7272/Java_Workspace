@@ -1,0 +1,16 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BookStore</title>
+</head>
+<body align="center">
+
+    <b><i><h2>MY BOOK STORE</h2></i></b>
+    <table height=300px width=200px border=1px solid black align="center">
+    <tr><td><a href="">BOOK1</a></td></tr>
+    <tr><td><a href="">BOOK2</a></td></tr>
+    <tr><td>CONTRACTOR FORMS</td></tr>
+    </table>
+</body>
+</html>

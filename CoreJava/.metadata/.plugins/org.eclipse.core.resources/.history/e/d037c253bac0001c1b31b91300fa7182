@@ -1,0 +1,25 @@
+package com.newton;
+
+import java.util.Scanner;
+
+public class Fabonacci {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		int n=sc.nextInt();
+		System.out.println(fabonacci(n));
+
+	}
+	
+	public static long fabonacci(long n) {
+		if(n==1)
+			return 1;
+		if(n==0)
+			return 0;
+		return fabonacci(n)+fabonacci(n-1);
+	}
+
+}
+//0,1,1,2,3,5,8,13,21,34,55,89
+//n=3

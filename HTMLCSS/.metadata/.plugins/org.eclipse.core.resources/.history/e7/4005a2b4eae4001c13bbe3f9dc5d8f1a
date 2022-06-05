@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<audio controls>
+  <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Sevish_-__nbsp_.mp3" type="audio/mp3">
+</audio>
+<audio controls>
+<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/week7-brrring.m4a" type="audio/mp4">
+</audio>
+</body>
+</html>

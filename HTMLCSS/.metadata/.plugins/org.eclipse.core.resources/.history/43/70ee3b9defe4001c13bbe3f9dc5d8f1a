@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>VideoStore</title>
+</head>
+<body>
+
+</body>
+
+
+<body align="center">
+
+	<b><i><h2>MY BOOK STORE</h2></i></b>
+	<table height=300px width=200px border=1px solid black align="center">
+		<tr align="center"">
+			<td><video width="320" height="240" controls>
+					<source src="https://www.youtube.com/watch?v=dUXLq8ZQYXo"
+						type="video/mp4">
+				</video></td>
+		</tr>
+		<tr align="center">
+			<td><a
+				href="https://docs.spring.io/spring-framework/docs/2.5.x/spring-reference.pdf">BOOK2</a></td>
+		</tr>
+		<tr align="center">
+			<td><a
+				href="https://gfgc.kar.nic.in/sirmv-science/GenericDocHandler/138-a2973dc6-c024-4d81-be6d-5c3344f232ce.pdf">BOOK3</a></td>
+		</tr>
+	</table>
+</body>
+</html>
